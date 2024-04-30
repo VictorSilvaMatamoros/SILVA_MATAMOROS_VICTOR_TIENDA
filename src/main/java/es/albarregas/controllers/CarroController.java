@@ -15,7 +15,13 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 import javax.servlet.http.Cookie;
 
-
+/**
+ *maneja todas las acciones relacionadas con el carrito de compras. 
+ * Desde agregar y eliminar libros hasta calcular precios y redirigir al usuario a las
+ * páginas adecuadas según sus acciones. Es el intermediario entre 
+ * los formularios HTML y las vistas, 
+ * @author victo
+ */
 @WebServlet(name = "CarroController", urlPatterns = {"/CarroController"})
 public class CarroController extends HttpServlet {
 

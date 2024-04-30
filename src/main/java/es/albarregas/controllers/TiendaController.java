@@ -9,7 +9,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-
+//este controlador verifica si hay una cookie llamada "compra" en la solicitud HTTP GET. 
+//Dependiendo de si se encuentra o no, habilita o deshabilita los botones en la vista tienda.jsp. 
+//La respuesta o flujo de datos se dirige a esta vista para que pueda mostrar la interfaz de
+//usuario apropiada en función de la presencia de la cookie de compra.
 @WebServlet(name = "TiendaController", urlPatterns = {"/TiendaController"})
 public class TiendaController extends HttpServlet {
 

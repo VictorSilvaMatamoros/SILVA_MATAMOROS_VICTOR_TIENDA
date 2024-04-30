@@ -12,7 +12,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-
+/*
+Dependiendo del botón presionado, realiza diferentes acciones, como agregar libros 
+al carrito, ver el carrito o finalizar la compra. Luego, redirige al usuario a la página apropiada. 
+*/
 @WebServlet(name = "WebController", urlPatterns = {"/WebController"})
 public class WebController extends HttpServlet {
 
